@@ -229,3 +229,15 @@ nav {
 .tvof {
     margin-bottom: 32px;
 }
+/* dr yunus */
+.yuunus {
+    margin-bottom: 80px;
+}
+.yunus {
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    padding: 48px 24px;
+
+}
