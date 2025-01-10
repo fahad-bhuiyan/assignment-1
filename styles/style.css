@@ -105,10 +105,10 @@
     font-weight: 900;
     font-style: italic;
   }
-  /*shared */
-.color {
+  /* shared */
+  .color {
     background-color: rgba(241, 241, 243, 1);
-}
+  }
 
 /* nav section */
 .navv {
@@ -240,4 +240,37 @@ nav {
     border-radius: 16px;
     padding: 48px 24px;
 
+}
+/* your opinion */
+
+/* news */
+
+.news1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255 ,1);
+  border-radius: 24px;
+  padding: 53px 48px;
+  gap: 24px;
+}
+.news2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255 ,1);
+  border-radius: 24px;
+  padding: 53px 48px;
+  gap: 24px;
+}
+.news-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+}
+.btn11 {
+  background-color: rgba(0, 106, 80, 1);
+  color: white;
+  padding: 13px 26px;
+  border-radius: 8px;
+  border: none;
 }
