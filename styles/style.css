@@ -132,6 +132,10 @@ nav {
     border-radius: 8px;
     background-color: white;
 }
+.nav-button:hover {
+  background-color: rgb(1, 109, 82);
+  color: white;
+}
 /* banner section */
 .banner {
     background-color: rgba(198, 228, 214, 1);
@@ -159,6 +163,9 @@ nav {
     color: white;
     border: none;
     border-radius: 8px;
+}
+.banner-button:hover {
+  background-color: rgb(3, 59, 45);
 }
 /* piller section */
 .ppl {
@@ -195,15 +202,27 @@ nav {
     border-radius: 16px;
     padding: 32px 32px;
 }
+.box1:hover {
+  background-color: rgb(3, 63, 148);
+  color: white;
+}
 .box2 {
     background-color: rgba(198, 228, 214, 1);
     border-radius: 16px;
     padding: 32px 32px;
 }
+.box2:hover {
+  background-color: rgb(2, 125, 68);
+  color: white;
+}
 .box3 {
     background-color: rgba(247, 235, 207, 1);
     border-radius: 16px;
     padding: 32px 32px;
+}
+.box3:hover {
+  background-color: rgb(203, 148, 20);
+  color: white;
 }
 .btn1 {
     background-color: rgba(84, 144, 245, 1);
@@ -212,6 +231,9 @@ nav {
     border-radius: 8px;
     border: none;
 }
+.btn1:hover{
+  background-color: rgb(19, 101, 242);
+}
 .btn2 {
     background-color: rgba(9, 161, 92, 1);
     color: white;
@@ -219,12 +241,18 @@ nav {
     border-radius: 8px;
     border: none;
 }
+.btn2:hover{
+  background-color: rgb(3, 110, 61);
+}
 .btn3 {
     background-color: rgba(255, 194, 57, 1);
     color: white;
     padding: 11px 20px;
     border-radius: 8px;
     border: none;
+}
+.btn3:hover{
+  background-color: rgb(239, 171, 14);
 }
 .tvof {
     margin-bottom: 32px;
@@ -242,10 +270,51 @@ nav {
 
 }
 /* your opinion */
-
+.table {
+  margin-bottom: 80px;
+}
+.tab-btn {
+  padding: 10px 14px;
+  background-color: rgba(198, 228, 214, 1);
+  border-radius: 4px;
+}
+.div-table {
+  padding: 32px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+}
+.main-table {
+  height: 345px;
+  width: 1216px;
+}
+table {
+  border-collapse: collapse;
+  ma
+}
+.table-h {
+  font-weight: bold;
+  font-size: 40px;
+}
+.tr-head {
+  width: 1216px;
+  height: 72px;
+}
+.table-data11{
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background-color: rgba(198, 228, 214, 1);
+  padding: 24px 24px;
+}
+.table-data1 {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px 24px;
+}
 /* news */
 .news {
   margin-bottom: 80px;
+}
+.news-h {
+  font-weight: bold;
+  font-size: 40px;
 }
 .news1 {
   display: flex;
