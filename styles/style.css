@@ -280,6 +280,9 @@ nav {
   background-color: rgb(3, 59, 45);
 }
 /* donate */
+.donate {
+  margin-bottom: 80px;
+}
 .donate-h {
 text-align: center;
 }
@@ -326,4 +329,55 @@ text-align: center;
 }
 .donate-btn:hover {
   background-color: rgb(3, 59, 45);
+}
+/* subscribr */
+.sub {
+  background-color: rgba(198, 228, 214, 1);
+  padding: 80px 100px;
+  margin-bottom: 80px;
+  border-radius: 24px;
+}
+.sub-h {
+  text-align: center;
+}
+.sub-p {
+  text-align: center;
+}
+.sub-p-2{
+  text-align: center;
+}
+.e-mail {
+  display: flex;
+  justify-content: space-around;
+}
+.sub-mail {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(14, 14, 14, 0.3);
+  padding: 18px 40px;
+  border: none;
+}
+.sub-btn {
+  background-color: rgba(0, 106, 80, 1);
+  color: rgb(255, 255, 255, 1);
+  padding: 17px 34px;
+  border-radius: 8px;
+  border: none;
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+.mail {
+  padding: 18px 40px;
+  color: rgba(14, 14, 14, 0.3);
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 8px;
+}
+.submit {
+  padding: 17px 34px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 106, 80, 1);
+  border: none;
+  border-radius: 8px;
 }
